@@ -1,0 +1,135 @@
+<table>
+  
+  <tr>
+    <th>          </th>
+    <th> Monday</th>
+    <th> Tuesday</th>
+    <th> Wednesday</th>
+    <th>Thursday</th>
+    <th>Friday</th>
+  </tr>
+  <tr>
+    <td>8:00-8:40 </td>
+    <td class=his>History</td>
+    <td class=infa>Computer Science</td>
+    <td class=kzadeb>Kazakh Literature</td>
+    <td class=his>History</td>
+    <td class=geog>Geography</td>
+  </tr>
+  <tr>
+    <td>8:45-9:25</td>
+    <td class=phys>Physics GS</td>
+    <td class=matem1>Algebra</td>
+    <td class=his>History</td>
+    <td class=angl>English</td>
+    <td class=dsh>PE</td>
+  </tr>
+    
+  <tr>
+    <td>9:35-10:15   </td>
+    <td class=matem1>Algebra</td>
+    <td class=matem1>Algebra</td>
+    <td class=angl>English</td>
+    <td class=kzadeb>Kazakh Literature</td>
+    <td class=rus>Russian Language</td>
+  </tr>
+  <tr>
+    <td>10:20-11:00 </td>
+    <td class=infa>Computer Science</td>
+    <td class=phys>Physics</td>
+    <td class=himia>Chemistry</td>
+    <td class=infa>Computer Science</td>
+    <td class=phys>Physics</td>
+  </tr>
+  <tr>
+    <td>11:15-11:55</td>
+    <td class=phys>Physics</td>
+    <td class=dsh>PE</td>
+    <td class=matem1>Algebra</td>
+    <td class=matem2>Geometry</td>
+    <td class=himia>Chemistry</td>
+  </tr>
+  <tr>
+    <td>12:05-12:45</td>
+    <td class=rus>Russian Language</td>
+    <td class=biology>Biology</td>
+    <td class=kztili>Kazakh Language</td>
+    <td class=geog>Geography</td>
+    <td class=angl>English</td>
+  </tr>
+  <tr>
+    <td>12:50-13:30</td>
+    <td class=matem1>Algebra</td>
+    <td class=matem2>Geometry</td>
+    <td class=biology>Biology</td>
+    <td class=phys>Physics</td>
+    <td class=infa>Computer Science</td>
+</table>
+table,td,th{
+  margin:40px;
+  padding:10px;
+  background:#FAEBD7;
+  font-size:20px;
+  border:inset;
+}
+.infa{
+  background:#B7E0FF;
+}
+.himia{
+  background:#FFCFB3;
+}
+.matem1{
+  background:#87A2FF;
+}
+.matem2{
+  background:#C0EBA6;
+}
+.phys{
+  background:#E7CCCC;
+}
+.dsh{
+  background:#CDC1FF;
+}
+.his{
+  background:#6A9AB0;
+}
+.rus{
+  background:#C1D8C3;
+}
+.geog{
+  background:#EECAD5;
+}
+.biology{
+  background:#D0B8A8;
+}
+.kztili {
+  background:#41B3A2;
+}
+.kzadeb{
+  background:#FFDC7F;
+}
+.angl {
+  background:#CB80AB;
+}
+td:hover{
+  background-color:#8967B3;
+  transform:scale(1.05);
+}
+td{
+  transition:background-color 0.4s ease, transform 0.4s ease;
+}
+    
+    
+      
+  
+  
+    
+    
+  
+  
+    
+  
+  
+  
+  
+  
